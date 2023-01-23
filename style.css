@@ -1,0 +1,40 @@
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 50%; /* adjust to your needs */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card {
+    width: calc(25% - 20px);
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+#nav-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#nav-container button {
+    margin: 0 10px;
+}
+
+#current-page {
+    margin: 0 10px;
+}
+
+
